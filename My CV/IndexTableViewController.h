@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  IndexTableViewController.h
 //  My CV
 //
 //  Created by Claudio Torrens on 2013-09-19.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface IndexTableViewController : UITableViewController<UIPageViewControllerDelegate,UITableViewDelegate>
+
 
 @end
