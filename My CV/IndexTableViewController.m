@@ -26,12 +26,56 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+ 
+    id resume = self.resumeListArray[0];
+    NSDictionary *skillSet = resume[@"Skills"];
+    NSString * skillsRaw = skillSet[@"Antivirus"];
+    self.skillsLabel.text = skillsRaw;
+
+    self.qualificationsLabel.text = resume[@"Qualifications"];
+    
+    NSString * summaryRaw = resume[@"Summary"];
+    NSString * summary = [summaryRaw stringByReplacingOccurrencesOfString:@";" withString:@"\n"];
+    self.summaryLabel.text = summary;
+    
+
+    NSArray * experience = @[
+                             [self.experienceListArray[0] objectForKey:@"Company"],
+                             [self.experienceListArray[1] objectForKey:@"Company"],
+                             [self.experienceListArray[2] objectForKey:@"Company"],
+                             [self.experienceListArray[3] objectForKey:@"Company"],
+                             [self.experienceListArray[4] objectForKey:@"Company"],
+                             [self.experienceListArray[5] objectForKey:@"Company"],
+                             [self.experienceListArray[6] objectForKey:@"Company"],
+                             [self.experienceListArray[7] objectForKey:@"Company"],
+                             [self.experienceListArray[8] objectForKey:@"Company"],
+                             [self.experienceListArray[9] objectForKey:@"Company"],
+                             ];
+
+    NSString * exp = [NSString stringWithFormat:@"%@ - %@ - %@ - %@ - %@ - %@ - %@ - %@ - %@ - %@ ...",
+                      [experience objectAtIndex:0],
+                      experience[1],
+                      experience[2],
+                      experience[3],
+                      experience[4],
+                      experience[5],
+                      experience[6],
+                      experience[7],
+                      experience[8],
+                      experience[9]
+                      ];
+    
+    self.experienceLabel.text = exp;
+    
+    self.educationLabel.text = resume[@"Education"];
+    
+
 
     // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    //self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)didReceiveMemoryWarning
@@ -92,9 +136,48 @@
     //[self.hourglass startAnimating];
     //[self.hourglass setHidden:NO];
     NSLog(@"Prepare for segue");
+    if ([[segue identifier] isEqualToString:@"ToExperience"]) {
+
+		UINavigationController *navigationController = (UINavigationController *)segue.destinationViewController;
+        ExperienceTableViewController *destinationVC = [[navigationController viewControllers] lastObject];
+        destinationVC.resumeListArray= self.resumeListArray;
+        destinationVC.experienceListArray = self.experienceListArray;
+    }
     
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+
+    if ([[segue identifier] isEqualToString:@"ToSummary"]) {
+        
+		UINavigationController *navigationController = (UINavigationController *)segue.destinationViewController;
+        SummaryViewController *destinationVC = [[navigationController viewControllers] lastObject];
+        destinationVC.resumeListArray= self.resumeListArray;
+
+    }
+
+    if ([[segue identifier] isEqualToString:@"ToQualifications"]) {
+        
+		UINavigationController *navigationController = (UINavigationController *)segue.destinationViewController;
+        QualificationsViewController *destinationVC = [[navigationController viewControllers] lastObject];
+        destinationVC.resumeListArray= self.resumeListArray;
+        
+    }
+
+    if ([[segue identifier] isEqualToString:@"ToSkills"]) {
+        
+		UINavigationController *navigationController = (UINavigationController *)segue.destinationViewController;
+        SkillsViewController *destinationVC = [[navigationController viewControllers] lastObject];
+        destinationVC.resumeListArray= self.resumeListArray;
+        
+    }
+    
+    if ([[segue identifier] isEqualToString:@"ToEducation"]) {
+        
+		UINavigationController *navigationController = (UINavigationController *)segue.destinationViewController;
+        EducationViewController *destinationVC = [[navigationController viewControllers] lastObject];
+        destinationVC.resumeListArray= self.resumeListArray;
+        
+    }
+
+    
 }
 
 
@@ -111,4 +194,7 @@
 }
 
 
+- (IBAction)BackMain:(UIBarButtonItem *)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

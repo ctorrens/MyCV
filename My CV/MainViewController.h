@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IndexTableViewController.h"
 
 @interface MainViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;

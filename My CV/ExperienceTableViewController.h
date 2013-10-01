@@ -11,4 +11,6 @@
 
 @interface ExperienceTableViewController : UITableViewController
 @property(nonatomic, strong) NSArray *experienceListArray;
+@property(nonatomic, strong) NSArray *resumeListArray;
+- (IBAction)BackIndex:(UIBarButtonItem *)sender;
 @end
