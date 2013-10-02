@@ -55,6 +55,9 @@
 		1A13DAB817F63A9B00ECAAD6 /* mitel.ico in Resources */ = {isa = PBXBuildFile; fileRef = 1A13DAA717F63A9B00ECAAD6 /* mitel.ico */; };
 		1A13DAB917F63A9B00ECAAD6 /* stiefel.ico in Resources */ = {isa = PBXBuildFile; fileRef = 1A13DAA817F63A9B00ECAAD6 /* stiefel.ico */; };
 		1A13DABA17F63A9B00ECAAD6 /* viarail.ico in Resources */ = {isa = PBXBuildFile; fileRef = 1A13DAA917F63A9B00ECAAD6 /* viarail.ico */; };
+		1A8FB34C17FC6A77004AB168 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8FB34B17FC6A77004AB168 /* MBProgressHUD.m */; };
+		1A8FB34E17FC92A6004AB168 /* shell.ico in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FB34D17FC92A6004AB168 /* shell.ico */; };
+		1A8FB35017FC92B1004AB168 /* mckesson.ico in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FB34F17FC92B1004AB168 /* mckesson.ico */; };
 		1ACE118C17EB526600DE9F0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACE118B17EB526600DE9F0F /* Foundation.framework */; };
 		1ACE118E17EB526600DE9F0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACE118D17EB526600DE9F0F /* CoreGraphics.framework */; };
 		1ACE119017EB526600DE9F0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACE118F17EB526600DE9F0F /* UIKit.framework */; };
@@ -146,6 +149,10 @@
 		1A13DAA717F63A9B00ECAAD6 /* mitel.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = mitel.ico; sourceTree = "<group>"; };
 		1A13DAA817F63A9B00ECAAD6 /* stiefel.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = stiefel.ico; sourceTree = "<group>"; };
 		1A13DAA917F63A9B00ECAAD6 /* viarail.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = viarail.ico; sourceTree = "<group>"; };
+		1A8FB34A17FC6A77004AB168 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		1A8FB34B17FC6A77004AB168 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1A8FB34D17FC92A6004AB168 /* shell.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = shell.ico; sourceTree = "<group>"; };
+		1A8FB34F17FC92B1004AB168 /* mckesson.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = mckesson.ico; sourceTree = "<group>"; };
 		1ACE118817EB526600DE9F0F /* My CV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My CV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACE118B17EB526600DE9F0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1ACE118D17EB526600DE9F0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -302,6 +309,8 @@
 		1A13DA9817F63A9B00ECAAD6 /* ico */ = {
 			isa = PBXGroup;
 			children = (
+				1A8FB34F17FC92B1004AB168 /* mckesson.ico */,
+				1A8FB34D17FC92A6004AB168 /* shell.ico */,
 				1A13DA9917F63A9B00ECAAD6 /* abitibi.ico */,
 				1A13DA9A17F63A9B00ECAAD6 /* alcan.ico */,
 				1A13DA9B17F63A9B00ECAAD6 /* axor.ico */,
@@ -321,6 +330,15 @@
 				1A13DAA917F63A9B00ECAAD6 /* viarail.ico */,
 			);
 			path = ico;
+			sourceTree = "<group>";
+		};
+		1A8FB34917FC6A60004AB168 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1A8FB34A17FC6A77004AB168 /* MBProgressHUD.h */,
+				1A8FB34B17FC6A77004AB168 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		1ACE117F17EB526600DE9F0F = {
@@ -356,6 +374,7 @@
 		1ACE119117EB526600DE9F0F /* My CV */ = {
 			isa = PBXGroup;
 			children = (
+				1A8FB34917FC6A60004AB168 /* MBProgressHUD */,
 				1A13DA2417F4D3CA00ECAAD6 /* Main.storyboard */,
 				1A13DA2017F49A9E00ECAAD6 /* AutoScrollLabel */,
 				1A13DA1F17F49A7200ECAAD6 /* Skills */,
@@ -467,6 +486,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Claudio Torrens";
 				TargetAttributes = {
+					1ACE118717EB526600DE9F0F = {
+						DevelopmentTeam = 54UN5N3BCJ;
+					};
 					1ACE11A817EB526600DE9F0F = {
 						TestTargetID = 1ACE118717EB526600DE9F0F;
 					};
@@ -498,11 +520,13 @@
 			files = (
 				1A13DAB917F63A9B00ECAAD6 /* stiefel.ico in Resources */,
 				1A13DAB417F63A9B00ECAAD6 /* ibm.ico in Resources */,
+				1A8FB34E17FC92A6004AB168 /* shell.ico in Resources */,
 				1ACE11D617EB5ADB00DE9F0F /* CT1.png in Resources */,
 				1A13DAB017F63A9B00ECAAD6 /* Dilbert_dialog.jpg in Resources */,
 				1A13DA8917F6047200ECAAD6 /* hp.png in Resources */,
 				1A13DA8B17F6047200ECAAD6 /* iosdeveloper.png in Resources */,
 				1A13DAAA17F63A9B00ECAAD6 /* abitibi.ico in Resources */,
+				1A8FB35017FC92B1004AB168 /* mckesson.ico in Resources */,
 				1A13DA9317F6047200ECAAD6 /* rexall1.png in Resources */,
 				1A13DAB817F63A9B00ECAAD6 /* mitel.ico in Resources */,
 				1A13DAAD17F63A9B00ECAAD6 /* banquenational.ico in Resources */,
@@ -576,6 +600,7 @@
 				1A13DA6A17F5DB8400ECAAD6 /* ExperienceDetailsTableViewController.m in Sources */,
 				1A13DA1317F34C3900ECAAD6 /* QualificationsViewController.m in Sources */,
 				1A13DA1917F34C6F00ECAAD6 /* EducationViewController.m in Sources */,
+				1A8FB34C17FC6A77004AB168 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,6 +727,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "My CV/My CV-Prefix.pch";
 				INFOPLIST_FILE = "My CV/My CV-Info.plist";
@@ -715,6 +741,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "My CV/My CV-Prefix.pch";
 				INFOPLIST_FILE = "My CV/My CV-Info.plist";

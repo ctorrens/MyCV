@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "IndexTableViewController.h"
+#import "MBProgressHUD.h"
 
 @interface MainViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 - (IBAction)viewMyCV:(UIButton *)sender;
 @property(nonatomic, strong) NSArray *experienceListArray;
 @property(nonatomic, strong) NSArray *resumeListArray;
-
+@property(nonatomic) BOOL jsonFetched;
 
 @end

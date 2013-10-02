@@ -36,6 +36,11 @@
     NSString * skills = [skillsRaw stringByReplacingOccurrencesOfString:@";" withString:@"\n"];
     self.skills.text = skills;
     
+    
+    for (id objects in self.resumeListArray) {
+        
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning
