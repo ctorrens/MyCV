@@ -30,10 +30,87 @@
     
     
     id dataObject = self.resumeListArray[0];
+
     NSDictionary *skillSet = dataObject[@"Skills"];
-    NSString * skillsRaw = skillSet[@"Antivirus"];
-   
-    NSString * skills = [skillsRaw stringByReplacingOccurrencesOfString:@";" withString:@"\n"];
+    NSString * skillsRaw = skillSet[@"Programming"];
+    NSString * skillSection = [NSString stringWithFormat:@"\nProgramming:\n%@\n",skillsRaw];
+    NSString * skills = skillSection;
+
+    
+    skillsRaw = skillSet[@"Practices"];
+    skillSection = [NSString stringWithFormat:@"\nPractices:\n%@\n",skillsRaw];
+    skills = [skills stringByAppendingString:skillSection];
+
+    
+    skillsRaw = skillSet[@"Mobile"];
+    skillSection = [NSString stringWithFormat:@"\nMobile:\n%@\n",skillsRaw];
+    skills = [skills stringByAppendingString:skillSection];
+
+    
+    skillsRaw = skillSet[@"Networking"];
+    skillSection = [NSString stringWithFormat:@"\nNetworking:\n%@\n",skillsRaw];
+    skills = [skills stringByAppendingString:skillSection];
+
+    
+    skillsRaw = skillSet[@"Protocols"];
+    skillSection = [NSString stringWithFormat:@"\nProtocols:\n%@\n",skillsRaw];
+    skills = [skills stringByAppendingString:skillSection];
+
+    
+    skillsRaw = skillSet[@"Directories"];
+    skillSection = [NSString stringWithFormat:@"\nDirectories:\n%@\n",skillsRaw];
+    skills = [skills stringByAppendingString:skillSection];
+
+    
+    skillsRaw = skillSet[@"Virtualization"];
+    skillSection = [NSString stringWithFormat:@"\nVirtualization:\n%@\n",skillsRaw];
+    skills = [skills stringByAppendingString:skillSection];
+    
+    skillsRaw = skillSet[@"Antivirus"];
+    skillSection = [NSString stringWithFormat:@"\nAntivirus:\n%@\n",skillsRaw];
+    skills = [skills stringByAppendingString:skillSection];
+    
+    skillsRaw = skillSet[@"BackUP"];
+    skillSection = [NSString stringWithFormat:@"\nBack Up:\n%@\n",skillsRaw];
+    skills = [skills stringByAppendingString:skillSection];
+    
+    skillsRaw = skillSet[@"OS"];
+    skillSection = [NSString stringWithFormat:@"\nOS:\n%@\n",skillsRaw];
+    skills = [skills stringByAppendingString:skillSection];
+    
+    skillsRaw = skillSet[@"Databases"];
+    skillSection = [NSString stringWithFormat:@"\nDatabases:\n%@\n",skillsRaw];
+    skills = [skills stringByAppendingString:skillSection];
+    
+    skillsRaw = skillSet[@"Project"];
+    skillSection = [NSString stringWithFormat:@"\nProjects:\n%@\n",skillsRaw];
+    skills = [skills stringByAppendingString:skillSection];
+    
+
+    skillsRaw = skillSet[@"SDKs"];
+    skillSection = [NSString stringWithFormat:@"\nSDKs:\n%@\n",skillsRaw];
+    skills = [skills stringByAppendingString:skillSection];
+    
+
+    skillsRaw = skillSet[@"Other"];
+    skillSection = [NSString stringWithFormat:@"\nOther:\n%@\n",skillsRaw];
+    skills = [skills stringByAppendingString:skillSection];
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+//    skills = [skillsRaw stringByReplacingOccurrencesOfString:@";" withString:@"\n"];
+
+    
+    
+
+    
     self.skills.text = skills;
     
     

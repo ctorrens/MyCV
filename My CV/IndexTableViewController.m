@@ -40,20 +40,20 @@
     
 
     NSArray * experience = @[
-                             [self.experienceListArray[0] objectForKey:@"Company"],
-                             [self.experienceListArray[1] objectForKey:@"Company"],
-                             [self.experienceListArray[2] objectForKey:@"Company"],
-                             [self.experienceListArray[3] objectForKey:@"Company"],
-                             [self.experienceListArray[4] objectForKey:@"Company"],
-                             [self.experienceListArray[5] objectForKey:@"Company"],
-                             [self.experienceListArray[6] objectForKey:@"Company"],
-                             [self.experienceListArray[7] objectForKey:@"Company"],
-                             [self.experienceListArray[8] objectForKey:@"Company"],
-                             [self.experienceListArray[9] objectForKey:@"Company"],
+                             (self.experienceListArray[0])[@"Company"],
+                             (self.experienceListArray[1])[@"Company"],
+                             (self.experienceListArray[2])[@"Company"],
+                             (self.experienceListArray[3])[@"Company"],
+                             (self.experienceListArray[4])[@"Company"],
+                             (self.experienceListArray[5])[@"Company"],
+                             (self.experienceListArray[6])[@"Company"],
+                             (self.experienceListArray[7])[@"Company"],
+                             (self.experienceListArray[8])[@"Company"],
+                             (self.experienceListArray[9])[@"Company"],
                              ];
 
     NSString * exp = [NSString stringWithFormat:@"%@ - %@ - %@ - %@ - %@ - %@ - %@ - %@ - %@ - %@ ...",
-                      [experience objectAtIndex:0],
+                      experience[0],
                       experience[1],
                       experience[2],
                       experience[3],

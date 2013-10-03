@@ -58,6 +58,16 @@
 		1A8FB34C17FC6A77004AB168 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8FB34B17FC6A77004AB168 /* MBProgressHUD.m */; };
 		1A8FB34E17FC92A6004AB168 /* shell.ico in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FB34D17FC92A6004AB168 /* shell.ico */; };
 		1A8FB35017FC92B1004AB168 /* mckesson.ico in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FB34F17FC92B1004AB168 /* mckesson.ico */; };
+		1A8FB35417FCA73A004AB168 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FB35317FCA73A004AB168 /* iTunesArtwork */; };
+		1A8FB35617FCA748004AB168 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FB35517FCA748004AB168 /* iTunesArtwork@2x */; };
+		1A8FB35817FCA755004AB168 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FB35717FCA755004AB168 /* Icon-72.png */; };
+		1A8FB35A17FCA75F004AB168 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FB35917FCA75F004AB168 /* Icon-72@2x.png */; };
+		1A8FB35C17FCA769004AB168 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FB35B17FCA769004AB168 /* Icon-Small-50.png */; };
+		1A8FB35E17FCA772004AB168 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FB35D17FCA772004AB168 /* Icon-Small-50@2x.png */; };
+		1A8FB36017FCA77D004AB168 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FB35F17FCA77D004AB168 /* Icon-Small.png */; };
+		1A8FB36217FCA789004AB168 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FB36117FCA789004AB168 /* Icon-Small@2x.png */; };
+		1A8FB36417FCA792004AB168 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FB36317FCA792004AB168 /* Icon.png */; };
+		1A8FB36617FCA799004AB168 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8FB36517FCA799004AB168 /* Icon@2x.png */; };
 		1ACE118C17EB526600DE9F0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACE118B17EB526600DE9F0F /* Foundation.framework */; };
 		1ACE118E17EB526600DE9F0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACE118D17EB526600DE9F0F /* CoreGraphics.framework */; };
 		1ACE119017EB526600DE9F0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACE118F17EB526600DE9F0F /* UIKit.framework */; };
@@ -153,6 +163,16 @@
 		1A8FB34B17FC6A77004AB168 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		1A8FB34D17FC92A6004AB168 /* shell.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = shell.ico; sourceTree = "<group>"; };
 		1A8FB34F17FC92B1004AB168 /* mckesson.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = mckesson.ico; sourceTree = "<group>"; };
+		1A8FB35317FCA73A004AB168 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		1A8FB35517FCA748004AB168 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		1A8FB35717FCA755004AB168 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		1A8FB35917FCA75F004AB168 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		1A8FB35B17FCA769004AB168 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		1A8FB35D17FCA772004AB168 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		1A8FB35F17FCA77D004AB168 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		1A8FB36117FCA789004AB168 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		1A8FB36317FCA792004AB168 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1A8FB36517FCA799004AB168 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		1ACE118817EB526600DE9F0F /* My CV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My CV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACE118B17EB526600DE9F0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1ACE118D17EB526600DE9F0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -309,6 +329,16 @@
 		1A13DA9817F63A9B00ECAAD6 /* ico */ = {
 			isa = PBXGroup;
 			children = (
+				1A8FB35717FCA755004AB168 /* Icon-72.png */,
+				1A8FB35917FCA75F004AB168 /* Icon-72@2x.png */,
+				1A8FB35B17FCA769004AB168 /* Icon-Small-50.png */,
+				1A8FB35D17FCA772004AB168 /* Icon-Small-50@2x.png */,
+				1A8FB35F17FCA77D004AB168 /* Icon-Small.png */,
+				1A8FB36117FCA789004AB168 /* Icon-Small@2x.png */,
+				1A8FB36317FCA792004AB168 /* Icon.png */,
+				1A8FB36517FCA799004AB168 /* Icon@2x.png */,
+				1A8FB35317FCA73A004AB168 /* iTunesArtwork */,
+				1A8FB35517FCA748004AB168 /* iTunesArtwork@2x */,
 				1A8FB34F17FC92B1004AB168 /* mckesson.ico */,
 				1A8FB34D17FC92A6004AB168 /* shell.ico */,
 				1A13DA9917F63A9B00ECAAD6 /* abitibi.ico */,
@@ -528,7 +558,10 @@
 				1A13DAAA17F63A9B00ECAAD6 /* abitibi.ico in Resources */,
 				1A8FB35017FC92B1004AB168 /* mckesson.ico in Resources */,
 				1A13DA9317F6047200ECAAD6 /* rexall1.png in Resources */,
+				1A8FB36617FCA799004AB168 /* Icon@2x.png in Resources */,
 				1A13DAB817F63A9B00ECAAD6 /* mitel.ico in Resources */,
+				1A8FB35817FCA755004AB168 /* Icon-72.png in Resources */,
+				1A8FB36417FCA792004AB168 /* Icon.png in Resources */,
 				1A13DAAD17F63A9B00ECAAD6 /* banquenational.ico in Resources */,
 				1A13DA2617F4D3CA00ECAAD6 /* Main.storyboard in Resources */,
 				1ACE11A417EB526600DE9F0F /* Images.xcassets in Resources */,
@@ -539,15 +572,21 @@
 				1A13DA8A17F6047200ECAAD6 /* ibm.png in Resources */,
 				1A13DA8517F6047200ECAAD6 /* cn.png in Resources */,
 				1A13DABA17F63A9B00ECAAD6 /* viarail.ico in Resources */,
+				1A8FB36017FCA77D004AB168 /* Icon-Small.png in Resources */,
 				1ACE119617EB526600DE9F0F /* InfoPlist.strings in Resources */,
 				1A13DAB617F63A9B00ECAAD6 /* katz.ico in Resources */,
 				1A13DA9117F6047200ECAAD6 /* resolute.png in Resources */,
 				1A13DAB317F63A9B00ECAAD6 /* hp.ico in Resources */,
 				1ACE11D917EB5ADB00DE9F0F /* CT4.png in Resources */,
+				1A8FB35E17FCA772004AB168 /* Icon-Small-50@2x.png in Resources */,
 				1A13DA9217F6047200ECAAD6 /* rexall.png in Resources */,
+				1A8FB35417FCA73A004AB168 /* iTunesArtwork in Resources */,
+				1A8FB35C17FCA769004AB168 /* Icon-Small-50.png in Resources */,
 				1A13DAAE17F63A9B00ECAAD6 /* cn.ico in Resources */,
 				1A13DA8817F6047200ECAAD6 /* hewitt.png in Resources */,
 				1A13DAAC17F63A9B00ECAAD6 /* axor.ico in Resources */,
+				1A8FB36217FCA789004AB168 /* Icon-Small@2x.png in Resources */,
+				1A8FB35A17FCA75F004AB168 /* Icon-72@2x.png in Resources */,
 				1A13DA9017F6047200ECAAD6 /* mitel.png in Resources */,
 				1A13DA8617F6047200ECAAD6 /* desjardins.png in Resources */,
 				1A13DA9417F6047200ECAAD6 /* stiefel.png in Resources */,
@@ -557,6 +596,7 @@
 				1A13DA9717F608D200ECAAD6 /* katz.png in Resources */,
 				1A13DA8717F6047200ECAAD6 /* familiprix.png in Resources */,
 				1A13DA8417F6047200ECAAD6 /* banquenational.png in Resources */,
+				1A8FB35617FCA748004AB168 /* iTunesArtwork@2x in Resources */,
 				1ACE11D817EB5ADB00DE9F0F /* CT3.png in Resources */,
 				1A13DA9517F6047200ECAAD6 /* viarail.png in Resources */,
 				1A13DA8D17F6047200ECAAD6 /* lefko.png in Resources */,
