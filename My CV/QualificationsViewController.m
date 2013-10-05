@@ -7,7 +7,7 @@
 //
 
 #import "QualificationsViewController.h"
-
+#include "LabelFormat.h" 
 @interface QualificationsViewController ()
 
 @end
@@ -27,13 +27,20 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-   
+
+    //---------------Label Format ---------------------
+    
+    LabelFormat * titleView = [[LabelFormat alloc] initWithFrame:CGRectZero];
+    titleView.text = @"My Qualifications";
+    self.navigationItem.titleView = titleView;
+    [titleView sizeToFit];
+    
+    //-------------------------------------------------
+
+    
     NSDictionary * resume =self.resumeListArray[0];
-    
     NSString * qualificationsRaw = resume[@"Qualifications"];
-    
-    NSString * qualifications = [qualificationsRaw stringByReplacingOccurrencesOfString:@";" withString:@"\n"];
-    
+    NSString * qualifications = [qualificationsRaw stringByReplacingOccurrencesOfString:@";" withString:@"\n\n"];
     self.qualifications.text = qualifications;
     
 }
@@ -44,7 +51,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)BackIndex:(UIBarButtonItem *)sender {
-      [self dismissViewControllerAnimated:YES completion:nil];
-}
+//- (IBAction)BackIndex:(UIBarButtonItem *)sender {
+//      [self dismissViewControllerAnimated:YES completion:nil];
+//}
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "SummaryViewController.h"
+#include "LabelFormat.h"
 
 @interface SummaryViewController ()
 
@@ -28,12 +29,18 @@
     [super viewDidLoad];
     
 	// Do any additional setup after loading the view.
+
+#pragma mark - Label Format
+	//---------------Label Format ---------------------
+    LabelFormat * titleView = [[LabelFormat alloc] initWithFrame:CGRectZero];
+    titleView.text = @"Summary";
+    self.navigationItem.titleView = titleView;
+    [titleView sizeToFit];
+    //-------------------------------------------------
+    
     NSDictionary * resume =self.resumeListArray[0];
-    
     NSString * summaryRaw = resume[@"Summary"];
-    
     NSString * summary = [summaryRaw stringByReplacingOccurrencesOfString:@";" withString:@"\n\n"];
-    
     self.summary.text = summary;
 
     
@@ -45,7 +52,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)BackIndex:(UIBarButtonItem *)sender {
-      [self dismissViewControllerAnimated:YES completion:nil];
-}
+//- (IBAction)BackIndex:(UIBarButtonItem *)sender {
+//      [self dismissViewControllerAnimated:YES completion:nil];
+//}
 @end

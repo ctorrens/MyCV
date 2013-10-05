@@ -7,6 +7,7 @@
 //
 
 #import "EducationViewController.h"
+#include "LabelFormat.h"
 
 @interface EducationViewController ()
 
@@ -28,13 +29,18 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+#pragma mark - Label Format
+    //---------------Label Format ---------------------
+    LabelFormat * titleView = [[LabelFormat alloc] initWithFrame:CGRectZero];
+    titleView.text = @"My Education";
+    self.navigationItem.titleView = titleView;
+    [titleView sizeToFit];
+    //-------------------------------------------------
+    
     NSDictionary * resume =self.resumeListArray[0];
-    
     NSString * educationRaw = resume[@"Education"];
-    
-    NSString * education = [educationRaw stringByReplacingOccurrencesOfString:@";" withString:@"\n"];
-    
-    self.education.text = education;
+    NSString * education = [educationRaw stringByReplacingOccurrencesOfString:@";" withString:@"\n\n"];
+    self.education.text = [NSString stringWithFormat:@"\n %@",education];
     
 }
 
@@ -44,7 +50,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)BackIndex:(UIBarButtonItem *)sender {
-      [self dismissViewControllerAnimated:YES completion:nil];
-}
+//- (IBAction)BackIndex:(UIBarButtonItem *)sender {
+//      [self dismissViewControllerAnimated:YES completion:nil];
+//}
 @end

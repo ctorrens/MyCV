@@ -17,4 +17,9 @@
 @property(nonatomic, strong) NSArray *resumeListArray;
 @property(nonatomic) BOOL jsonFetched;
 
+@property (strong, nonatomic) IBOutlet UILabel *myName;
+@property (strong, nonatomic) IBOutlet AutoScrollLabel *myTitle;
+@property (strong, nonatomic) IBOutlet UIImageView *myPicture;
+
+
 @end

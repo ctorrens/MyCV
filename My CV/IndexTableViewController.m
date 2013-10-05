@@ -7,6 +7,7 @@
 //
 
 #import "IndexTableViewController.h"
+#include "LabelFormat.h"
 
 @interface IndexTableViewController ()
 
@@ -26,18 +27,25 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
- 
+    
+#pragma mark - Label Format
+    //---------------Label Format ---------------------
+    LabelFormat * titleView = [[LabelFormat alloc] initWithFrame:CGRectZero];
+    titleView.text = @"Index";
+    self.navigationItem.titleView = titleView;
+    [titleView sizeToFit];
+    //-------------------------------------------------
+
+#pragma mark - Filling cells content
+    
     id resume = self.resumeListArray[0];
     NSDictionary *skillSet = resume[@"Skills"];
     NSString * skillsRaw = skillSet[@"Antivirus"];
     self.skillsLabel.text = skillsRaw;
-
     self.qualificationsLabel.text = resume[@"Qualifications"];
-    
     NSString * summaryRaw = resume[@"Summary"];
     NSString * summary = [summaryRaw stringByReplacingOccurrencesOfString:@";" withString:@"\n"];
     self.summaryLabel.text = summary;
-    
 
     NSArray * experience = @[
                              (self.experienceListArray[0])[@"Company"],
@@ -69,9 +77,6 @@
     
     self.educationLabel.text = resume[@"Education"];
     
-
-
-    // Uncomment the following line to preserve selection between presentations.
     self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
@@ -197,4 +202,11 @@
 - (IBAction)BackMain:(UIBarButtonItem *)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
+
+-(IBAction)backFromExit:(UIStoryboardSegue *)segue{
+
+}
+
+
 @end

@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #include "ExperienceCell.h"
+ 
+
 
 @interface ExperienceTableViewController : UITableViewController
 @property(nonatomic, strong) NSArray *experienceListArray;
 @property(nonatomic, strong) NSArray *resumeListArray;
-- (IBAction)BackIndex:(UIBarButtonItem *)sender;
+-(IBAction)backFromExperienceDetails:(UIStoryboardSegue *)segue;
+//- (IBAction)BackIndex:(UIBarButtonItem *)sender;
 @end
 

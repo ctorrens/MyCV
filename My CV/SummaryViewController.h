@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+ 
+
 
 @interface SummaryViewController : UIViewController
-- (IBAction)BackIndex:(UIBarButtonItem *)sender;
+//- (IBAction)BackIndex:(UIBarButtonItem *)sender;
 @property (weak, nonatomic) IBOutlet UITextView *summary;
 @property(nonatomic, strong) NSArray *resumeListArray;
 

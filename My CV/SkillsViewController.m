@@ -7,6 +7,7 @@
 //
 
 #import "SkillsViewController.h"
+#include "LabelFormat.h"
 
 @interface SkillsViewController ()
 
@@ -28,7 +29,18 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+
+#pragma mark - Label Format
     
+    //---------------Label Format ---------------------
+    LabelFormat * titleView = [[LabelFormat alloc] initWithFrame:CGRectZero];
+    titleView.text = @"My Skills";
+    self.navigationItem.titleView = titleView;
+    [titleView sizeToFit];
+    //-------------------------------------------------
+    
+    
+#pragma mark - Filling text view with json content
     id dataObject = self.resumeListArray[0];
 
     NSDictionary *skillSet = dataObject[@"Skills"];
@@ -96,24 +108,11 @@
     skillSection = [NSString stringWithFormat:@"\nOther:\n%@\n",skillsRaw];
     skills = [skills stringByAppendingString:skillSection];
     
-
-    
-    
-    
-    
-    
-    
-    
-    
-//    skills = [skillsRaw stringByReplacingOccurrencesOfString:@";" withString:@"\n"];
-
-    
-    
-
     
     self.skills.text = skills;
+    self.skills.textColor = [UIColor grayColor];
     
-    
+
     for (id objects in self.resumeListArray) {
         
     }
@@ -126,7 +125,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)BackIndex:(UIBarButtonItem *)sender {
-      [self dismissViewControllerAnimated:YES completion:nil];
-}
+//- (IBAction)BackIndex:(UIBarButtonItem *)sender {
+//      [self dismissViewControllerAnimated:YES completion:nil];
+//}
 @end

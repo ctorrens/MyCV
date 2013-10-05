@@ -7,8 +7,10 @@
 //
 
 #import "ExperienceTableViewController.h"
+#include "LabelFormat.h"
+#include "ExperienceDetailsTableViewController.h"
 
-@interface ExperienceTableViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface ExperienceTableViewController ()<UITableViewDelegate>
 
 
 @end
@@ -42,6 +44,15 @@
     [super viewDidLoad];
     NSLog(@"\n\n\nView DID appear\n\n\n");
     
+#pragma mark - Label Format
+    //---------------Label Format ---------------------
+    LabelFormat * titleView = [[LabelFormat alloc] initWithFrame:CGRectZero];
+    titleView.text = @"My experience";
+    self.navigationItem.titleView = titleView;
+    [titleView sizeToFit];
+	//-------------------------------------------------
+    
+
     
     // Loading images into an array to then show them up after
 //    NSInteger numberOfRows = self.experienceListArray.count-1;
@@ -125,58 +136,37 @@
     return cell;
 }
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    [self performSegueWithIdentifier:@"ToExperienceDetails" sender:self];
+    NSLog(@"\n\nExperience list at selected row AT INDEX:%ld is:\n %@ ",(long)indexPath.row,self.experienceListArray[[indexPath row]]);
+    //[tableView deselectRowAtIndexPath:indexPath animated:YES];
+
 }
-*/
+-(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath{
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a story board-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
 }
 
- */
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
 
-- (IBAction)BackIndex:(UIBarButtonItem *)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    if ([[segue identifier] isEqualToString:@"ToExperienceDetails"]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        
+		UINavigationController *navigationController = (UINavigationController *)segue.destinationViewController;
+        ExperienceDetailsTableViewController *destinationVC = [[navigationController viewControllers] lastObject];
+        NSLog(@"\n\nINDEXPATH:%ld \n\n",(long)[indexPath row]);
+        destinationVC.experienceObject= self.experienceListArray[[indexPath row]];
+    }
+
 }
+
+-(IBAction)backFromExperienceDetails:(UIStoryboardSegue *)segue{
+    
+}
+
+
+//- (IBAction)BackIndex:(UIBarButtonItem *)sender {
+//    [self dismissViewControllerAnimated:YES completion:nil];
+//}
 @end

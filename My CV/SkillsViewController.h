@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface SkillsViewController : UIViewController
-- (IBAction)BackIndex:(UIBarButtonItem *)sender;
+//- (IBAction)BackIndex:(UIBarButtonItem *)sender;
 @property(nonatomic, strong) NSArray *resumeListArray;
 @property (weak, nonatomic) IBOutlet UITextView *skills;
 

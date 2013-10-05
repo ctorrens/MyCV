@@ -12,7 +12,7 @@
 
 #define LABEL_BUFFER_SPACE 20   // pixel buffer space between scrolling label
 #define DEFAULT_PIXELS_PER_SECOND 30
-#define DEFAULT_PAUSE_TIME 0.5f
+#define DEFAULT_PAUSE_TIME 0.8f
 
 @implementation AutoScrollLabel
 @synthesize pauseInterval;

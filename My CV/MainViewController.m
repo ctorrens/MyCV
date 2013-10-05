@@ -10,6 +10,7 @@
 
 @interface MainViewController ()
 
+
 @end
 
 @implementation MainViewController
@@ -29,7 +30,9 @@
     [super viewDidLoad];
     [self.activityIndicator setHidden:YES];
     self.jsonFetched = NO;
-    
+    self.myTitle.text = @"Informatoin Technology Specialist    ";
+    self.myTitle.textColor = [UIColor blackColor];
+    self.myTitle.font = [UIFont fontWithName:@"Arial" size:12.0];
     
 }
 

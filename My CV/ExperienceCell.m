@@ -16,12 +16,14 @@
     if (self) {
         // Initialization code
     }
+        NSLog(@"Cell init with Style ");
     return self;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
     [super setSelected:selected animated:animated];
+
 
     // Configure the view for the selected state
 }
