@@ -45,6 +45,7 @@
 - (IBAction)viewMyCV:(UIButton *)sender {
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     hud.labelText = @"Loading...";
+    hud.detailsLabelText = @"...";
     if (self.jsonFetched==NO) {
     NSLog(@"jsonFetched==NO...");
         [self.activityIndicator setHidden:NO];

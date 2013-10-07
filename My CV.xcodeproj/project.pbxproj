@@ -177,8 +177,8 @@
 		1A8FB36117FCA789004AB168 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		1A8FB36317FCA792004AB168 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		1A8FB36517FCA799004AB168 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		1A8FB36717FDE3CA004AB168 /* LabelFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelFormat.h; sourceTree = "<group>"; };
-		1A8FB36817FDE3CA004AB168 /* LabelFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelFormat.m; sourceTree = "<group>"; };
+		1A8FB36717FDE3CA004AB168 /* LabelFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LabelFormat.h; path = ../LabelFormat.h; sourceTree = "<group>"; };
+		1A8FB36817FDE3CA004AB168 /* LabelFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LabelFormat.m; path = ../LabelFormat.m; sourceTree = "<group>"; };
 		1A8FB36D17FE10F1004AB168 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1A8FB36E17FE10F1004AB168 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1A8FB36F17FE10F1004AB168 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -383,8 +383,6 @@
 		1ACE117F17EB526600DE9F0F = {
 			isa = PBXGroup;
 			children = (
-				1A8FB36717FDE3CA004AB168 /* LabelFormat.h */,
-				1A8FB36817FDE3CA004AB168 /* LabelFormat.m */,
 				1ACE119117EB526600DE9F0F /* My CV */,
 				1ACE11B017EB526600DE9F0F /* My CVTests */,
 				1ACE118A17EB526600DE9F0F /* Frameworks */,
@@ -426,6 +424,8 @@
 				1A13DA1A17F49A0B00ECAAD6 /* Experience */,
 				1ACE11C317EB573900DE9F0F /* MainViewController.h */,
 				1ACE11C417EB573900DE9F0F /* MainViewController.m */,
+				1A8FB36717FDE3CA004AB168 /* LabelFormat.h */,
+				1A8FB36817FDE3CA004AB168 /* LabelFormat.m */,
 				1ACE11A317EB526600DE9F0F /* Images.xcassets */,
 				1ACE119217EB526600DE9F0F /* Supporting Files */,
 			);

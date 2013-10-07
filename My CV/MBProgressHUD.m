@@ -514,19 +514,31 @@ static const CGFloat kDetailsLabelFontSize = 12.f;
 	totalSize.width = MAX(totalSize.width, indicatorF.size.width);
 	totalSize.height += indicatorF.size.height;
 	
-	CGSize labelSize = [label.text sizeWithFont:label.font];
-	labelSize.width = MIN(labelSize.width, maxWidth);
+	//CGSize labelSize = [label.text sizeWithFont:label.font];
+    //------------------------------------------------------
+	
+    NSAttributedString *attributedText = [[NSAttributedString alloc] initWithString:label.text attributes:@{ NSFontAttributeName: label.font}];
+    CGRect rect = [attributedText boundingRectWithSize:(CGSize){maxWidth, CGFLOAT_MAX}
+                                               options:NSStringDrawingUsesLineFragmentOrigin
+                                               context:nil];
+    CGSize labelSize = rect.size;
+    //------------------------------------------------------
+    
+    labelSize.width = MIN(labelSize.width, maxWidth);
 	totalSize.width = MAX(totalSize.width, labelSize.width);
 	totalSize.height += labelSize.height;
 	if (labelSize.height > 0.f && indicatorF.size.height > 0.f) {
 		totalSize.height += kPadding;
 	}
 
-	CGFloat remainingHeight = bounds.size.height - totalSize.height - kPadding - 4 * margin; 
-	CGSize maxSize = CGSizeMake(maxWidth, remainingHeight);
-	CGSize detailsLabelSize = [detailsLabel.text sizeWithFont:detailsLabel.font 
-								constrainedToSize:maxSize lineBreakMode:detailsLabel.lineBreakMode];
-	totalSize.width = MAX(totalSize.width, detailsLabelSize.width);
+	//CGFloat remainingHeight = bounds.size.height - totalSize.height - kPadding - 4 * margin;
+	//CGSize maxSize = CGSizeMake(maxWidth, remainingHeight);
+    //CGSize detailsLabelSize = [detailsLabel.text sizeWithFont:detailsLabel.font constrainedToSize:maxSize lineBreakMode:detailsLabel.lineBreakMode];
+    //--------------------CT--------------------------------------------------------------
+    CGSize detailsLabelSize = CGSizeMake(90.0, 30.0); // I hardcoded the image's dimension
+    //--------------------CT--------------------------------------------------------------
+    
+    totalSize.width = MAX(totalSize.width, detailsLabelSize.width);
 	totalSize.height += detailsLabelSize.height;
 	if (detailsLabelSize.height > 0.f && (indicatorF.size.height > 0.f || labelSize.height > 0.f)) {
 		totalSize.height += kPadding;
