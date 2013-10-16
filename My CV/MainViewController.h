@@ -20,6 +20,9 @@
 @property (strong, nonatomic) IBOutlet UILabel *myName;
 @property (strong, nonatomic) IBOutlet AutoScrollLabel *myTitle;
 @property (strong, nonatomic) IBOutlet UIImageView *myPicture;
+@property (strong, nonatomic) IBOutlet UITextField *remoteHostStatusField;
+
+
 
 
 @end

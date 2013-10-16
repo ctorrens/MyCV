@@ -1,0 +1,232 @@
+[
+	{
+		"Company" : "AXOR Group",
+		"Logo" : "axor",
+		"Period" : "February 2012 – July 2013 (1 year 6 months)",
+		"Location" : "Montreal, QC",
+		"Comment" : "Through Present Inc. Outsourcing",
+		"Position" : "Application Development and New messaging environment architecture and deployment",
+		"Environment" : "iOS 5.x, iOS 6.x, Blackberry OS (BBX), Windows 8, Windows 2008, Windows 2003, Windows 7",
+		"Tasks" : "Development of a Customized the web login portal, with automatic user's profile redirection, Developed new subroutines and added functionality to an in-house application, Development and troubleshooting of several codes written in LotusScript & Formula Language, New messaging environment architecture and deployment - Development, Installed 4 new servers on a virtual environment, Instant Messaging ,a Blackberry Server and full integration with iPhone.;Integrated the new infrastructure with the existing messaging environment, added Single Sign On capability & SSL;New SMTP configuration to support multiple internet domains."
+	},
+	{
+		"Company" : "Familiprix",
+		"Logo" : "familiprix",
+		"Period" : "July 2012 – January 2013 (7 months)",
+		"Location" : "Montreal, QC",
+		"Comment" : "Through Present Inc. Outsourcing",
+		"Position" : "Developed a new inventory solution for Apple iOS Devices",
+		"Environment" : "iOS 5.x, iOS 6.x, iSeries OS400, Windows 8, Windows 2008, Windows 2003, Windows 7",
+		"Tasks" : "Integration with existing backend systems on AS400 / In-House Solution (NoviCom); Created a set of 30 libraries to interact with both OS400 and NoviCom;Used JSON for Consumer routines; Added Infinite Peripherals Classes to use bar code scanners Linea Pro;MVS, UIKit, Foundation, Core Data, Keychain Services, SSKeychain,NSStream, WebView, GIT, SCRUM"
+	},
+	{
+		"Company" : "Via Rail",
+		"Logo" : "viarail",
+		"Period" : "July 2012 – June 2013 (1 year)",
+		"Location" : "Montreal, QC",
+		"Comment" : "Through Present Inc. Outsourcing",
+		"Position" : "Development of a customized process to retrieve digital certificates on Lotus Notes",
+		"Environment" : "Windows 2008, Windows 2003, Windows 7,Blackberry OS (BBX)",
+		"Tasks" : "Messaging Infrastructure 3rd Level Support"
+	},
+	{
+		"Company" : "Hewitt-CAT",
+		"Logo" : "hewitt",
+		"Period" : "May 2013 – May 2013 (1 month)",
+		"Location" : "Montreal, QC",
+		"Comment" : "Through Present Inc. Outsourcing",
+		"Position" : "IT Specialist",
+		"Environment" : "iSeries OS400, Windows 2008, Windows 2003, Windows 7, Blackberry OS (BBX)",
+		"Tasks" : "3rd Level Support of a middleware application between IBM Lotus Domino, SAP and AS400"
+	},
+	{
+		"Company" : "McKesson",
+		"Logo" : "mckesson",
+		"Period" : "August 2012 – October 2012 (3 months)",
+		"Location" : "Montreal, QC",
+		"Comment" : "Through Present Inc. Outsourcing",
+		"Position" : "Developer",
+		"Environment" : "iSeries OS400, Windows 8, Windows 2008, Windows 2003, Windows 7, Blackberry OS (BBX)",
+		"Tasks" : "Application code upgrade to support MS Windows servers and OS400"
+	},
+	{
+		"Company" : "Belcan",
+		"Logo" : "belcan",
+		"Period" : "August 2012 – September 2012 (2 months)",
+		"Location" : "Longueuil, QC",
+		"Comment" : "Through Present Inc. Outsourcing",
+		"Position" : "IT Specialist",
+		"Environment" : "Windows 2008, Windows 2003, Windows 7,Blackberry OS (BBX)",
+		"Tasks" : "Messaging Infrastructure 3rd Level Support"
+	},
+	{
+		"Company" : "JACOB",
+		"Logo" : "jacob",
+		"Period" : "June 2012 – August 2012 (3 months)",
+		"Location" : "Montreal, QC",
+		"Tasks" : "Through Present Inc. Outsourcing",
+		"Position" : "IT Specialist",
+		"Environment" : "Windows 2008, Windows 2003, Windows 7, Blackberry OS (BBX), iOS 5.x, iOS 6.x",
+		"Tasks" : "New Instant messaging environment architecture, deployment and Integration with existing m&C; Based on a new virtual environment with W2k8 deployed a websphere proxy server and a new IM server (Sametime Community) and to provide iPhone users with corporate IM; Infrastructure assessment, health check and adjusted to best practices"
+	},
+	{
+		"Company" : "Katz Group",
+		"Logo" : "katz",
+		"Period" : "May 2012 – October 2012 (6 months)",
+		"Location" : "Toronto, (ON), Montreal(QC)",
+		"Comment" : "Through Present Inc. Outsourcing",
+		"Position" : "Solution Architect",
+		"Environment" : "iSeries OS400, Windows 8, Windows 2008, Windows 2003, Windows 7,Blackberry OS (BBX)",
+		"Tasks" : "New messaging environment architecture and deployment - Development; Created a new virtual environment for messaging and collaboration with 4 new servers, iPhone integration,Instant Messaging and a Blackberry Server. Integrated that environment with the existing environment, added Single Sign On capability, SSL, a custom web login screen, with automatic user's profile redirection, a new SMTP configuration to support multiple internet domains. Developed a Lotus Notes application with platform administration capabilities"
+	},
+	{
+		"Company" : "Aikawa Group - AFT",
+		"Logo" : "aikawa",
+		"Period" : "February 2012 – August 2012 (6 months)",
+		"Location" : "",
+		"Comment" : "Through Present Inc. Outsourcing",
+		"Position" : "Solution Architect",
+		"Environment" : "iSeries OS400, Windows 8, Windows 2008, Windows 2003, Windows 7,Blackberry OS (BBX)",
+		"Tasks" : "Installed a new Archiving Server. Created new policies to deploy the archiving standards and defined an strategy to consolidate existing archiving on the new server."
+	},
+	{
+		"Company" : "Mouvement des caisses Desjardins (MCD)",
+		"Logo" : "desjardins",
+		"Period" : "March 2011 – December 2011 (10 months)",
+		"Location" : "Montreal, QC",
+		"Comment" : "Through IBM outsourcing",
+		"Position" : "Solution Architect",
+		"Environment" : "IBM AIX, Sun Solaris, iSeries OS400,  Windows 2003, Windows 7,Blackberry OS (BBX) ",
+		"Tasks" : "Performed  transition of platform administration to IBM facilities and Management Model. Administered servers running on  AIX, SUN and Windows; Administered a farm of 200 Messaging and Application Servers,Performed regular backup and restore using TDP, TSM. Created and Updated many Unix Scripts, Developed several scripts using Lotus Script, @Formula; Used multiple system administration tools such as Tunnelier, Notepad++, VNC, LDAP Softerra,Putty, eclipse, etc."
+	},
+	{
+		"Company" : "National Bank of Canada",
+		"Logo" : "banquenational",
+		"Period" : "March 2011 – December 2011 (10 months)",
+		"Location" : "Montreal, QC",
+		"Comment" : "Through IBM outsourcing",
+		"Position" : "Administrator / Developer",
+		"Environment" : "IBM AIX, Sun Solaris, Windows 2008, Windows 2003,Blackberry OS (BBX)",
+		"Tasks" : "Administered servers running on AIX; Messaging and Application Servers"
+	},
+	{
+		"Company" : "Lefko Plastic Products",
+		"Logo" : "lefko",
+		"Period" : "February 2011 – March 2011 (2 months)",
+		"Location" : "Magog, QC",
+		"Comment" : "Consultant",
+		"Position" : "Upgrade and Development",
+		"Environment" : "Windows 2008, Windows 2003, Windows 7,Blackberry OS (BBX)",
+		"Tasks" : "Upgraded a Virtualized Application and Collaboration Server running on Windows;Updated design of some applications to run on the new server release using LotusScript, @Formula;Development on current databases in order to run a ERP Solution (iExterterprise)"
+	},
+	{
+		"Company" : "Mitel Networks",
+		"Logo" : "mitel",
+		"Period" : "May 2009 – February 2011 (1 year 10 months)",
+		"Location" : "Ottawa, ON",
+		"Comment" : "Research & Development",
+		"Position" : "Solution Architect",
+		"Environment" : "Windows 2003, Windows 7, Blackberry OS (BBX)",
+		"Tasks" : "Installed and customized a fully functional collaboration environment for Research and Development.Troubleshooting and RCA of  new developed products; Updated some cs-scripting to improve performance on some process calls. Customized a directory service schema in order  to interact with other external services; Integrated a Blackberry Enterprise Server 5 with extended directories search capabilities. On Demand architecture or configuration changes according to R&D needs;Migration, Virtualization ;Gathered customer reality, needs, pain factors, and goals. Platform assessment, analysis and model design of a consolidated and virtual messaging architecture; Migration / Co-existence procedures. Prototyping, Testing in LAB and Deployment; P2V (Physical to Virtual migrations); Creation of migration procedures; Migration Testing and deployment to VMWare vSphere;Platform Administration and Development projects; Developed a tool for administration of the messaging platform, such as mail users account management, workstations statistics, automated process using LotusScript (custom classes, functions, subs and standard classes), @Formula, Javascript,HTML. Virtual environment:  co-administration of (SAN, VM Admin Servers and Clustered Hosts) with implied virtualized application Servers Platform monitoring, Maintenance, Scripting, Custom apps to gather servers data, etc.Technical writing:  procedures, references, guidelines, document testing results. Created migration strategy to migrate users from different environments; Perform maintenance, support and monitoring of servers; Health check and platform management"
+	},
+	{
+		"Company" : "Shell Canada",
+		"Logo" : "shell",
+		"Period" : "September 2008 – January 2013 (4 years 5 months)",
+		"Location" : "Calgary (AL), Montreal (QC)",
+		"Comment" : "Migration of an old messaging system to the IBM messaging technology",
+		"Position" : "Solution Architect",
+		"Environment" : "Windows 2003, Windows 2008",
+		"Tasks" : "Created the Migration Strategy. Created the low level Migration procedure; Developed some scripts to help the migration of contacts by user account. Customized Perl scripts to perform emails migration by user using 2 SuSe 10 virtual machines. Co-development of a web script running on an http server (in Lotusscript) in order to manage user accounts. Created a Lab environment and tested all the  migration procedures. Performed the Migration deployment. Created several Technical procedures, references, guidelines and testing result"
+	},
+	{
+		"Company" : "Abitibi-Bowater",
+		"Logo" : "abitibi",
+		"Period" : "December 2008 – February 2009 (3 months)",
+		"Location" : "Montreal, QC",
+		"Comment" : "Consolidation and Upgrade on several Servers",
+		"Position" : "Solution Architect",
+		"Environment" : "Windows 2003, Windows XP, 7, Blackberry OS (BBX)",
+		"Tasks" : "Created the Migration and Upgrade procedures. Created a Lab environment and tested all migration phases using several virtual machines; Windows 2003, XP under VMWare ESX 3.5; Deployed a Blackberry Server 4.1.6 with a mixed platform environment; Customization of a Directory Service to integrate Cisco Unified Communication functionality. Analyzed the Email routing topology architecture in order to improve it. Created several Technical  procedures, references, guidelines and testing results; Worked in conjunction with the customer to develop strategy to Migrate users to new platform."
+	},
+	{
+		"Company" : "Canadian National",
+		"Logo" : "cn",
+		"Period" : "January 2008 – August 2008 (8 months)",
+		"Location" : "Montreal, QC",
+		"Comment" : "Email and Mobile infrastructure administration",
+		"Position" : "Messaging & Collaboration Engineer",
+		"Environment" : "Windows 2003, Windows XP, 7, Blackberry OS (BBX)",
+		"Tasks" : "Domino server’s migration project – 60 Domino servers; Migrated successfully 60 Domino Servers 6.5.4 to the release 8.0.1. Technical writing: procedures, guidelines and  test cases; Setup the Pilot environment under VMWare ESX with windows 2003 as guest O.S. to test current and new functionalities according to test matrix; Created 2 new Domino R8 under a new SAN environment; Lotus Notes migration project; Re engineering of current Workstations with Windows XP and Lotus Notes 6.5.4 to new Workstations with Windows Vista and Lotus Notes Standard 8.0.1 (eclipse based) and the migration process from XP to Vista for a pilot of 200 users; Mail encryption Solution; Deployed in Lab a Lotus Notes and Blackberry mail encryption solution that involved some lotusscript development on the mail template and S/MIME enablement on BES and blackberry devices; Platform management and 3rd level support 24/7 on core Domino, Blackberry, Sametime Servers ; Created several technical documentation such as guides, procedures and changes on Domino Servers, Blackberry Servers and Lotus Notes clients ;Supported my peers on daily operations"
+	},
+	{
+		"Company" : "Stiefel Laboratories",
+		"Logo" : "stiefel",
+		"Period" : "February 2006 – December 2007 (1 year 11 months)",
+		"Location" : "Montreal, QC",
+		"Comment" : "Email & Blackberry Administration",
+		"Positoin" : "Global Messaging & Collaboration Specialist",
+		"Environment" : "Windows 2003, Windows XP, Blackberry OS (BBX)",
+		"Tasks" : "Participated in technical projects that involved administration, deployment of messaging and collaboration technologies at Stiefel Global. (Domino, Exchange, Sametime, BES); Maintenance and customization of existing messaging and collaboration solutions according to business requests/needs; Collaborated with my world wide colleagues in other associated projects; Compile, Analyze, define (or architect) different solutions or scenarios and Test them in laboratory (Test environments) using VM Workstations 4.x, 5 according to customer needs (users); Proposed new features and functionalities of the messaging and collaboration infrastructure to the Business; Created new technical guides and procedures, validated existing documentation and shared knowledge with the global IT Community; Researched on new technologies related to better manage the messaging environment; Proactive Administration, Monitoring, Troubleshooting, Maintenance, Platform tuning, Proposal of new solutions or new technologies, 2nd and 3rd Support level for Sametime, Domino and Blackberry Enterprise and MS SQL Servers; Messaging and collaboration 2nd and 3rd level support for end users (Domino, Blackberry, Lotus Notes, and Sametime (IM)); Standards: ITIL v3"
+	},
+	{
+		"Company" : "ALCAN",
+		"Logo" : "alcan",
+		"Period" : "October 2005 – November 2005 (2 months)",
+		"Location" : "Montreal, QC",
+		"Comment" : "Throught IBM Software Services",
+		"Position" : "ITMessaging&CollaborationConsultant",
+		"Environment" : "Windows 2003, Windows XP",
+		"Tasks" : "Lotus Sametime and Lotus Quickplace proof of concept; Customized some design elements of the new solution to fit the customer’s requirements Worked for : (IBMSoftwareServicesforLotus, SoftwareGroup)"
+	},
+	{
+		"Company" : "IBM Latin America",
+		"Logo" : "ibm",
+		"Period" : "February 2002 – August 2005 (3 years 7 months)",
+		"Location" : "Chile, Argentina, Uruguay, Paraguay, Brasil",
+		"Comment" : "Software Lab Services - Software Group",
+		"Position" : "IT Architect",
+		"Environment" : "IBM AIX, IBM OS2 Warp, iSeries OS400, zSeries OS, Windows 2000, Windows 2003, Windows XP, Redhat Linux, SUSE Linux",
+		"Tasks" : "Leading the Infrastructure and Customer requirements analysis and Architecture; Conceived Several Pilots  using VMWare Workstation 4 and Windows XP as host; Upgraded, Migrated and Consolidated  many Notes and Domino infrastructures and from other mail systems (MS Exchange, Novell GroupWise, CC Mail, others);Development (to enhance some migration models); Creation of P.S.P.G. Notes Databases (Policies, Standards, Procedures and Guides); Infrastructure analysis, customer requirements, design of new messaging architectures; Technical Support after deployments."
+	},
+	{
+		"Company" : "IBM Argentina",
+		"Logo" : "ibm",
+		"Period" : "February 2002 – August 2005 (3 years 7 months)",
+		"Location" : "Argentina",
+		"Comment" : "ISSL",
+		"Position" : "Project Manager",
+		"Environment" : "IBM AIX, IBM OS2 Warp, iSeries OS400, zSeries OS, Windows 2000, Windows 2003, Windows XP, Redhat Linux, SUSE Linux",
+		"Tasks" : "Using PMI Standards to defining all phases involved in migration projects including the Resource Management, Budget, Change Management, Pricing, Risk Control; Successfully achieved an avg. gross profit over 10% of expected forecasts; Several Customer references."
+	},
+	{
+		"Company" : "IBM Argentina",
+		"Logo" : "ibm",
+		"Period" : "June 2001 – January 2002 (8 months)",
+		"Location" : "Argentina",
+		"Comment" : "Software Group",
+		"Position" : "IT Technical Pre-Sales Specialist",
+		"Environment" : "IBM AIX, IBM OS2 Warp, iSeries OS400, zSeries OS, Windows 2000, Windows 2003, Windows XP, Redhat Linux, SUSE Linux",
+		"Tasks" : "Applied Signature Selling Method and Sales Cycle Management on the regional accounts; Design and deployment of POC (proof of concepts) or prototypes according to customer needs, including high availability and improved architecture designs of messaging and collaboration solutions including Sametime, Quickplace, Workflow, Discovery, Notes / Domino integrated with corporate directories and/or other system integrations; Performed Workshop and Training Sessions for Customer and Business Partners; Development of basic Notes Applications in order to show domino integration functionalities; Conceived Commercial Presentations related Lotus Software products brand; Dealing with customer's complaints and solving critical PMRs; Research on current technologies on the marketplace in order to stay current on latest. Technologies trends and keep up to date with new products & market trends and competitors."
+	},
+	{
+		"Company" : "IBM Argentina",
+		"Logo" : "ibm",
+		"Period" : "June 1999 – May 2001 (2 Years)",
+		"Location" : "Argentina",
+		"Comment" : "Business Partners & Mobile Sales Technical Support Division",
+		"Position" : "IT Technical Support Coordinator",
+		"Environment" : "IBM AIX, IBM OS2 Warp, iSeries OS400, zSeries OS, Windows 2000, Windows 2003, Windows XP, Redhat Linux, SUSE Linux",
+		"Tasks" : "Responsible for the IT Infrastructure of mobile users infrastructure (Apps under Notes, remote access, cell phones, telephony system and some building facilities related to mobile users); Provided Technical Support to Business Partners for Notes 4.5 and 5 Workflow apps; Deployment and Support of an in-house only software (FlexiMOVE) that worked with a Siemens PBX system and DB2; DB2 Database Administrator for FlexiMOVE Servers in all Latin American Mobile Sites; Mobile Users Activity Logs and Analysis; Generate On Demand Reports for IBM Argentina General Manager; Responsible to provide support and training to Business Partners on IBM’s fulfilment, e-Order and tracking systems."
+	},
+	{
+		"Company" : "Matrix Registration Management",
+		"Logo" : "matrix",
+		"Period" : "1997 – 1999 (2 years)",
+		"Location" : "Argentina",
+		"Comment" : "Architecture, Deployment, Administration and Support",
+		"Position" : "IT Technical Support",
+		"Environment" : "UNIX, Windows 95, Windows NT",
+		"Tasks" : "Architecture, Deployment, Administration and Support of UNIX SCO Networks for Trade Shows Events; Deployment, Administration and Support of Registration System for attendees of Trade Show Events; Creation of Statistic Reports; Responsible of all the local commercial relationship with the required suppliers for each trade show; Management of temporary temps working  on each trade show  event."
+	}
+]

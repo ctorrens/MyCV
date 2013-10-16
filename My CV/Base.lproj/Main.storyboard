@@ -145,7 +145,7 @@ Cg
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
                             </textView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="142" translatesAutoresizingMaskIntoConstraints="NO" id="IP6-B9-bqF">
-                                <rect key="frame" x="102" y="35" width="142" height="28"/>
+                                <rect key="frame" x="98" y="28" width="142" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Claudio Torrens">
@@ -159,19 +159,19 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHX-bu-xeI">
-                                <rect key="frame" x="40" y="419" width="118" height="30"/>
+                                <rect key="frame" x="20" y="419" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="View my Resume"/>
                                 <connections>
                                     <action selector="viewMyCV:" destination="fDl-zy-jNE" eventType="touchUpInside" id="dmA-sD-mQT"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CT1.png" translatesAutoresizingMaskIntoConstraints="NO" id="lOR-YK-vxT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CT1" translatesAutoresizingMaskIntoConstraints="NO" id="lOR-YK-vxT">
                                 <rect key="frame" x="20" y="28" width="60" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Vxn-lV-H9q">
-                                <rect key="frame" x="249" y="429" width="20" height="20"/>
+                                <rect key="frame" x="176" y="424" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RET-cm-bRs" customClass="AutoScrollLabel">
@@ -181,6 +181,12 @@ Cg
                                     <outlet property="delegate" destination="fDl-zy-jNE" id="oa1-cJ-k0z"/>
                                 </connections>
                             </scrollView>
+                            <textField opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="s0a-TO-QOb">
+                                <rect key="frame" x="20" y="452" width="234" height="30"/>
+                                <color key="textColor" red="0.54744819970000003" green="0.54744819970000003" blue="0.54744819970000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="8"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -189,6 +195,7 @@ Cg
                         <outlet property="myName" destination="IP6-B9-bqF" id="nHT-Vi-kJ1"/>
                         <outlet property="myPicture" destination="lOR-YK-vxT" id="Orw-qK-xeS"/>
                         <outlet property="myTitle" destination="RET-cm-bRs" id="soj-C7-xa9"/>
+                        <outlet property="remoteHostStatusField" destination="s0a-TO-QOb" id="9pF-Qr-Kx5"/>
                         <segue destination="NgX-gt-T4j" kind="modal" identifier="ToIndex" modalTransitionStyle="flipHorizontal" id="7tt-er-NnE"/>
                     </connections>
                 </viewController>
@@ -561,7 +568,7 @@ Cg
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="98"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CT1.png" translatesAutoresizingMaskIntoConstraints="NO" id="kYC-0l-Bky">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="people" translatesAutoresizingMaskIntoConstraints="NO" id="kYC-0l-Bky">
                                             <rect key="frame" x="5" y="25" width="82" height="44"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </imageView>
@@ -636,7 +643,7 @@ Cg
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="53"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CT1.png" translatesAutoresizingMaskIntoConstraints="NO" id="f1k-2j-K0Q">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="people" translatesAutoresizingMaskIntoConstraints="NO" id="f1k-2j-K0Q">
                                                     <rect key="frame" x="20" y="4" width="69" height="45"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </imageView>
@@ -889,7 +896,8 @@ Cg
         </scene>
     </scenes>
     <resources>
-        <image name="CT1.png" width="85" height="80"/>
+        <image name="CT1" width="85" height="80"/>
+        <image name="people" width="110" height="102"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

@@ -1,0 +1,25 @@
+[
+	{
+		"Summary" : "Since the beginning of my career and as autodidact person, I've gained a multi-disciplinary skills* that enabled me to successfully accomplish complex tasks in several projects I was involved with.;In the last 8 years I've gained experience that includes and not limited to designing, improving and developing enterprise solutions,working with Apple user Interface best practices, identifying and recommending standards, working with design specifications through user stories on scrum, creating user interfaces according to customer expectations and apple standards, in evaluating estimated effort on a project or task completion as well as eager to stay up to date with the latest technology among many others.;I can handle easily to detect point of failures or to recommend improvements on existing solutions as well as highly creative to show new perspectives to a current challenge as well as able to evaluate estimated efforts to accomplish certain tasks. ;My most recent experience in development, in the last year and a half, I designed, prototyped, developed, tested, piloted and deployed customized enterprise solutions and in particular an Inventory management solution in IOS. I'm eager to further my Mobile Development knowledge and skills.;* starting from the design and conception two robot arms I've build from my own and then presented for educational purpose (one for a university and another for a science museum). Later I worked helping to deploy, then to manage a satellite maritime traffic control system on '96. Subsequently passing through operational roles, managing an attendees registration system running on unix, then managing, developing and deploying different in-house solutions at IBM using different platforms and RDBMS.",
+		"Qualifications" : "1 year of experience developing enterprise and mobile (iOS) applications;2 years of experience developing with SDKs;Knowledgeable in Application Development;Systems migrations;Health checks;Platform management and solutions architecture.;Ability to work with processes and methodologies;1 year of experience working with Scrum/Agile-Quick learner-Self-motivated;Able to learn on own initiative-Resourceful in solving problems;Demonstrated ability to adapt to new paradigms & technology;Customer Oriented;Strong Analytical skills; Creative; Perseverance.",
+		"Skills" : {
+			"Programming" : "Tools & IDEs: x-Code, PaintCode, Eclipse,TextMate, TexWrangler, SourceTree, Dash, Prepo, Kompozer, CodeCollector, Notepad+,SoapUI , IBM Lotus Domino Designer, Xamarin**, QP**; Languages: Objective-C, LotusScript, Perl, @Furmula, Visual Basic, JavaScript, CSS, HTML, XML, WSDL, SOAP;** Basic knowledge",
+			"Practices" : "Agile (Scrum) ,ITIL",
+			"Mobile" : "Lotus Traveller, Apple MDM, MobileIron, Blackberry Enterprise Server 4.0, 4.1, 5 and Blackberry Devices, Apple iOS Devices",
+			"Messaging" : "IBM Lotus Notes / Domino (R5,R6/6.5,R7, R8/8.5/9),IBM Lotus iNotes (DWA),MS Exchange (5.5 ,2000, 2003), Microsoft OWA, Novell GroupWise 5,MS Outlook (2000,2003,2007), IBM Lotus Sametime (3, 6.5, 7.5),IBM Lotus Quickplace/Quickr (2.0.8, 3, 6.5, 8.2), IBM Lotus Learning Management System (LMS 1.1), Lotus Domino Doc, Lotus Workflow, Lotus Workplace Messaging, Websphere Application/Portal Servers",
+			"Networking" : "Citrix Metaframe, XenApp, WireShark, LDAPManager, FileZilla, WireShark, CrossLoop, Bitvise Tunnelier, FreeCommander, Midnight Commander, PC ANYWARE, PFTP, Procomm Plus, Putty, RAdmin, MS Remote Desktop, SecFTP, VNC *, Softerra LDAP Browser, SSH Clients, Telnet clients, Webex, VPN Access Tools(AT&T,  Cisco, Nortel, Apple, etc), Domino Admin, nWorks SPI, InfoNSF, SAPlus, ID Manager and many other network and monitoring tools.",
+			"Protocols" : "TCP/IP, HTTP, SSL, TLS, HTTPS, SMTP, POP, IMAP, NRPC, RSTP, SSH, Telnet, LDAP, SOAP, Wireless protocols, UC Standards, Audio and Video",
+			"Directories" : "Active Directory 2000/2003, Domino LDAP, OpenLDAP",
+			"Virtualization" : "vSphere, VMWare Server 1.x, 2, ESX 3.5, VMWare Converter, VMWare Fusion, VMWare Workstation, Sun VirtualBox 2.1, 3.1, Microsoft VirtualPC",
+			"Antivirus" : "McAfee Groupshield, Symantec Brightmail, Symantec mail security for Domino, Barracuda",
+			"BackUP" : "CA ARCServe, Symantec Veritas, EMC Celerra (SAN)",
+			"OS" : "OS X, iOS, Windows 8, Windows 2000,2003, 2008, 7, Vista, XP, 2000, Linux, AIX, OS400",
+			"Databases" : "DB2 Enterprise (7.2, 8), MS SQL Server (2000,2003)",
+			"Project" : "Microsoft Project (97, 2000, 2003), OpenProj",
+			"SDKs" : "Apple SDK, Infinite Peripherals (Linea Pro), Sametime SDK, Lotus Notes APIs, MSDN",
+			"Other" : "Apple Configurator, Remedy, Peregrine Service Center, SAP, FlexiMOVE (IBM Internal PBX system),  In-house developed applications, Microsoft VISIO, Microsoft Office Professional (97, 2000, 2003, 2007), Open Office (2, 3), Lotus Symphony, Microsoft Project (97, 2000, 2003,  2007)"
+		},
+		"Education" : "Bachelor degree in computer analysis – UAI – Teacher Institute - 2003",
+		"Languages" : "English, French, Spanish"
+	}
+]
